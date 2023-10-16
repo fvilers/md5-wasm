@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>md5-wasm demo</title>
+  </head>
+  <body>
+    <h1>md5-wasm demo</h1>
+    <pre id="result"></pre>
+
+    <script type="module">
+      import init, { md5 } from "../pkg/md5_wasm.js";
+
+      init().then(() => {
+        const digest = md5("abcdefghijklmnopqrstuvwxyz");
+
+        document.getElementById("result").innerText = digest;
+      });
+    </script>
+  </body>
+</html>
