@@ -1,6 +1,8 @@
 {
   "files.exclude": {
+    "**/pkg": true,
     "**/target": true,
     "**/Cargo.lock": true
-  }
+  },
+  "cSpell.words": ["bindgen"]
 }
