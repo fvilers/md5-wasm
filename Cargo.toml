@@ -4,7 +4,7 @@ version = "0.7.0"
 authors = ["Fabian Vilers <fabian.vilers@dev-one.com>"]
 description = "An md5 function implemented in Rust and compiled as a WASM module"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/yourgithubusername/hello-wasm"
+repository = "https://github.com/fvilers/md5-wasm.git"
 edition = "2021"
 
 [lib]
