@@ -1,2 +1,2 @@
 @echo off
-wasm-pack build --target web --scope fvilers
+wasm-pack build --target bundler --scope fvilers
